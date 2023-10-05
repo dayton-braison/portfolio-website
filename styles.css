@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #f8f8f8;
     padding: 10px 0;
 }
 
@@ -52,16 +52,8 @@ nav a:hover {
 }
 
 .hero {
-    position: relative;
-    background-image: url(computer-desk.jpg);
-    background-size: contain;
-    background-position: 95%;
-    background-repeat: no-repeat;
-    background-color: #fff;
-    height: auto;
+    background-color: #f8f8f8;
     color: #333;
-    text-align: left;
-    overflow: hidden;
 }
 
 .hero-content {
@@ -147,12 +139,29 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+    .hero {
+        position: relative;
+        background-image: url(computer-desk.jpg);
+        background-size: contain;
+        background-position: 95%;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        height: auto;
+        color: #333;
+        text-align: left;
+        overflow: hidden;
+        }
+
     header h1 {
         font-size: 2rem;
     }
 
     header p {
         font-size: 1rem;
+    }
+
+    nav {
+        background-color: #fff;
     }
 
     nav ul li {
